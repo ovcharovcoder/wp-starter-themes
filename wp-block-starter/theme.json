@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "settings": {
+    "layout": {
+      "contentSize": "1200px",
+      "wideSize": "1400px"
+    },
+    "color": {
+      "palette": [
+        { "name": "Primary", "slug": "primary", "color": "#111111" },
+        { "name": "Accent", "slug": "accent", "color": "#e63946" },
+        { "name": "White", "slug": "white", "color": "#ffffff" }
+      ]
+    },
+    "typography": {
+      "fontFamilies": [
+        { "name": "Inter", "slug": "inter", "fontFamily": "Inter, sans-serif" }
+      ]
+    }
+  }
+}

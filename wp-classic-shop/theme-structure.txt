@@ -1,0 +1,87 @@
+wp-shop
+│
+├── style.css
+├── functions.php
+├── screenshot.png
+├── theme.json
+│
+├── header.php
+├── footer.php
+├── sidebar.php
+│
+├── index.php
+├── page.php
+├── single.php
+├── archive.php
+│
+├── woocommerce.php              # головний шаблон магазину
+│
+├── template-parts/
+│
+│   ├── sections/
+│   │   ├── hero.php
+│   │   ├── shop-hero.php
+│   │   ├── promo.php
+│   │   ├── newsletter.php
+│   │   └── advantages.php
+│   │
+│   ├── components/
+│   │   ├── button.php
+│   │   ├── product-card.php
+│   │   ├── product-badge.php
+│   │   ├── quantity.php
+│   │   └── rating.php
+│   │
+│   └── shop/
+│       ├── product-loop.php
+│       ├── product-grid.php
+│       └── product-filter.php
+│
+├── woocommerce/                 # 🔴 перевизначення шаблонів WooCommerce
+│
+│   ├── archive-product.php
+│   ├── single-product.php
+│   │
+│   ├── loop/
+│   │   ├── loop-start.php
+│   │   ├── loop-end.php
+│   │   └── price.php
+│   │
+│   ├── single-product/
+│   │   ├── title.php
+│   │   ├── price.php
+│   │   ├── short-description.php
+│   │   ├── add-to-cart.php
+│   │   └── product-image.php
+│   │
+│   └── cart/
+│       └── mini-cart.php
+│
+├── inc/
+│
+│   ├── setup.php
+│   ├── enqueue.php
+│   ├── helpers.php
+│   │
+│   ├── woocommerce/
+│   │   ├── shop-setup.php
+│   │   ├── shop-hooks.php
+│   │   ├── shop-functions.php
+│   │   └── checkout-customize.php
+│
+├── assets/
+│
+│   ├── css/
+│   │   ├── optimize.css
+│   │   ├── main.css
+│   │   └── shop.css
+│   │
+│   ├── js/
+│   │   ├── main.js
+│   │   └── shop.js
+│   │
+│   ├── images/
+│   │
+│   └── icons/
+│
+└── acf-json/

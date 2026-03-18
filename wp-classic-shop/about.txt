@@ -1,0 +1,43 @@
+=== Theme Information ===
+
+Theme Name: Hotel Landing
+Project: Hotel website landing page
+Client: Demo project / portfolio
+Author: Andrii Ovcharov
+Website: https://example.com
+Created: 2026-03-16
+Version: 1.0
+
+=== Description ===
+
+Custom WordPress theme created for a hotel landing page.
+The theme is based on a custom HTML/CSS layout and adapted for WordPress.
+
+Main purpose:
+Landing page for hotel presentation with sections:
+hero, about, services, gallery, contact.
+
+=== Technical Information ===
+
+WordPress version: 6.x
+PHP version: 7.2+
+CSS: custom styles
+JavaScript: vanilla JS
+
+=== Theme Structure ===
+
+front-page.php  → main landing page layout
+header.php      → site header
+footer.php      → site footer
+page.php        → default page template
+single.php      → single post template
+
+assets/
+css/
+js/
+images/
+
+=== Notes ===
+
+This theme is a custom starter-based theme created specifically
+for this project and is not intended for public distribution.

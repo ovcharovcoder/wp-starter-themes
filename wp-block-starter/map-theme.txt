@@ -1,0 +1,42 @@
+wp-block-starter/
+│
+├── style.css
+├── functions.php
+├── theme.json
+├── screenshot.png
+│
+├── templates/
+│   ├── index.html
+│   ├── page.html
+│   ├── single.html
+│   ├── archive.html
+│   ├── home.html
+│   ├── 404.html
+│   └── search.html
+│
+├── parts/
+│   ├── header.html
+│   ├── footer.html
+│   └── sidebar.html
+│
+├── patterns/
+│   ├── hero.php
+│   ├── services.php
+│   ├── contact.php
+│   ├── cta.php
+│   └── team.php
+│
+├── inc/
+│   ├── setup.php
+│   ├── assets.php
+│   └── block-styles.php
+│
+└── assets/
+    ├── css/
+    │   ├── main.css
+    │   └── editor.css
+    ├── js/
+    │   └── main.js
+    └── images/
+│
+└── languages/

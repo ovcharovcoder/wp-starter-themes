@@ -1,0 +1,43 @@
+wp-classic-starter/
+│
+├── style.css
+├── functions.php
+├── readme.txt
+├── screenshot.png
+│
+├── header.php
+├── footer.php
+├── sidebar.php
+├── index.php
+├── page.php
+├── single.php
+├── archive.php
+├── 404.php
+├── search.php
+│
+├── templates/              # Кастомні шаблони сторінок
+│   ├── landing-page.php
+│   ├── about.php
+│   └── contact.php
+│
+├── parts/                  # Повторювані секції/компоненти
+│   ├── hero.php
+│   ├── services.php
+│   ├── team.php
+│   ├── contact.php
+│   └── cta.php
+│
+├── assets/
+│   ├── css/
+│   │   ├── optimize.css
+│   │   └── main.css
+│   ├── js/
+│   │   └── main.js
+│   └── images/
+│
+└── inc/
+    ├── setup.php
+    ├── assets.php
+    └── helpers.php
+│
+└── languages/
