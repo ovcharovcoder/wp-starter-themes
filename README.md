@@ -1,112 +1,131 @@
 # 🚀 WP Starter Themes
 
-A collection of starter WordPress themes for building custom websites, landing pages, and eCommerce projects.
+A collection of **WordPress theme starters (boilerplates)** for fast development of custom websites, landing pages, and eCommerce projects.
+
+> ⚠️ These are not ready-to-use themes.
+> They are **development templates** designed to help you quickly build your own custom WordPress themes.
 
 ---
 
-## 📦 Available Themes
+## 📦 Available Starters
 
 ### 🔹 wp-classic-starter
 
-Minimal classic WordPress starter theme.
+Starter template for classic WordPress themes.
 
-* Clean and simple structure
-* Basic templates (`index.php`, `page.php`, etc.)
-* Perfect for learning and small projects
-* Easy to extend
+* Minimal structure
+* Core template files (`index.php`, `page.php`, etc.)
+* Modular architecture (`templates/`, `parts/`)
+* Ideal for custom landing pages and business websites
 
 ---
 
 ### 🔹 wp-classic-shop
 
-Classic WordPress theme optimized for WooCommerce projects.
+Starter template for WooCommerce-based projects.
 
-* Ready for eCommerce development
-* Structured for product pages and shop layouts
-* Modular sections for customization
-* Clean asset management
+* Prepared structure for shop development
+* Optimized for product pages and catalogs
+* Modular components for scaling
+* Clean asset handling
 
 ---
 
 ### 🔹 wp-block-starter
 
-Modern block-based WordPress theme (Gutenberg / FSE).
+Starter template for block-based WordPress themes (Gutenberg / FSE).
 
-* Full Site Editing (FSE) support
+* Full Site Editing support
 * Block templates (`/templates/`)
-* Reusable patterns (`/patterns/`)
-* Editor styling support (`editor.css`)
-* Ideal for modern WordPress workflows
+* Patterns support (`/patterns/`)
+* Editor styles (`editor.css`)
+* Modern WordPress workflow
 
 ---
 
 ## ⚙️ Features
 
 * Clean and scalable architecture
-* Modular structure (`templates/`, `parts/`, `patterns/`)
-* Optimized CSS reset (`optimize.css`)
+* Modular structure for reusable components
+* CSS reset via `optimize.css`
 * Structured assets (CSS, JS, images)
-* Developer-friendly setup
-* Ready for custom development
+* Developer-oriented setup
+* Easy integration with custom HTML layouts
 
 ---
 
 ## 🚀 Installation
 
-1. Clone the repository:
+### Option 1 — Clone full repository
 
-```bash id="1k5h5q"
+```bash
 git clone https://github.com/ovcharovcoder/wp-starter-themes.git
 ```
 
-2. Copy the desired theme folder into:
+---
 
-```id="0zq0p1"
+### Option 2 — Download specific theme only
+
+#### 🔹 Method 1 (manual via GitHub)
+
+1. Open the repository in browser
+2. Go to the desired theme folder
+3. Click **"Download ZIP"** (or download the whole repo and extract only needed folder)
+
+---
+
+#### 🔹 Method 2 (via Git sparse checkout)
+
+```bash
+git clone --filter=blob:none --no-checkout https://github.com/ovcharovcoder/wp-starter-themes.git
+cd wp-starter-themes
+git sparse-checkout init --cone
+git sparse-checkout set wp-block-starter
+git checkout
+```
+
+> Replace `wp-block-starter` with any theme name.
+
+---
+
+## 📁 Usage
+
+1. Copy selected theme into:
+
+```
 /wp-content/themes/
 ```
 
-3. Activate the theme in WordPress admin panel.
+2. Activate it in WordPress
+3. Start replacing markup with your own layout
 
 ---
 
 ## 🧠 Philosophy
 
-These themes are built with a focus on:
+These starters are built to:
 
-* Speed of development
-* Clean code
-* Reusability
-* Flexibility
+* Speed up development
+* Avoid repetitive setup
+* Keep code clean and structured
+* Provide flexibility for any custom project
 
-The main goal is to simplify the process of converting static HTML layouts into fully functional WordPress websites.
-
----
-
-## 📁 Structure Example
-
-```id="wgh9pe"
-theme/
-├── templates/     # Page templates
-├── parts/         # Reusable sections (classic themes)
-├── patterns/      # Block patterns (block theme)
-├── assets/        # CSS, JS, images
-├── inc/           # Theme logic
-```
+The main goal is to simplify converting static HTML into WordPress themes.
 
 ---
 
 ## 📌 Use Cases
 
-* Landing pages
-* eCommerce websites (WooCommerce)
-* Custom WordPress development
+* Custom landing pages
+* Business websites
+* WooCommerce stores
 * Rapid prototyping
 
 ---
 
 ## 📄 License
 
-This project is licensed under the GPL v2 or later.
+GPL v2 or later
 
 ---
 
