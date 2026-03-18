@@ -125,10 +125,10 @@ The main goal is to simplify converting static HTML into WordPress themes.
 
 ## 📄 License
 
-GPL v2 or later
+MIT License
 
 ---
 
 ## 👨‍💻 Author
 
-Created by Andrii — Web Developer & Designer
+Created by Andrii Ovcharov — Web Developer & Designer
